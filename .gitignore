@@ -3,3 +3,8 @@
 *.parquet
 .venv
 misc
+
+.ipynb_checkpoints/
+
+AutogluonModels/
+XGBModels/
