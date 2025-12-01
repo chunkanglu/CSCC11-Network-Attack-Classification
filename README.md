@@ -8,7 +8,7 @@ Install it here: [uv Webpage](https://docs.astral.sh/uv/#highlights)
 # create virtual env
 uv venv
 # install dependencies
-uv sync
+uv sync --all-extras
 ```
 
 ## Data
