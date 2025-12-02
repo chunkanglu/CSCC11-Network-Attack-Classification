@@ -24,3 +24,11 @@ We processed this raw data into `.parquet` files. You can download the processed
     - **NOTE:** If you only want to run the model notebooks, this is the only file you need to download.
 
 After downloading, please move the files into the `data/` directory
+
+# Model Comparison
+Each model was explored with its own python notebook:
+- KNN: `knn.ipynb`
+- Random Forest: `rf.ipynb`
+- MLP: `mlp.ipynb`
+- XGBoost: `xgboost.ipynb`
+- Mitra: `mitra.ipynb`
