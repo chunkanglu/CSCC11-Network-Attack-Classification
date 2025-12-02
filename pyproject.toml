@@ -9,18 +9,28 @@ dependencies = [
     "datashader>=0.18.2",
     "holoviews>=1.22.0",
     "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
     "matplotlib>=3.10.7",
+    "notebook>=7.5.0",
     "numpy>=2.3.4",
     "pandas>=2.3.3",
-    "pyarrow>=22.0.0",
+    "pyarrow==20.0.0",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
-    "torch>=2.9.1",
-    "torchvision>=0.24.1",
+    "torch>=2.2.0,<2.8.0",
+    "torchvision>=0.17.0,<0.23.0",
     "umap-learn>=0.5.9.post2",
 ]
 
 [project.optional-dependencies]
+mitra = [
+    "autogluon.tabular[mitra]>=1.4.0",
+    "transformers>=4.30.0",
+    "tokenizers>=0.13.0",
+    "einops>=0.8.1",
+    "ray>=2.10.0,<2.45.0",
+    "ipywidgets>=8.1.8",
+]
 xgboost = [
     "xgboost>=3.1.2",
 ]
